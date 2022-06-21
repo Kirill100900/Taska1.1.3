@@ -28,7 +28,7 @@ public class Util {
     public Util() { }
     public static Connection getConnection() {
         try {
-            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/users", "root", "Crazymbappe5612");
+            conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/users", "root", "qwerT3603");
             Statement statement = conn.createStatement();
             return conn;
     } catch (SQLException e) {
